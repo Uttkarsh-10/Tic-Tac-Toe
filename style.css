@@ -1,8 +1,43 @@
-h1{
-    background-color: aquamarine;
-    padding: 0%;
-    margin: 0%;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightyellow;
+    text-align: center;
+}
+
+.container {
+    height: 80vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 59vh;
+    width: 59vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8vmin;
+}
+
+.box {
+    height: 17vh;
+    width: 17vh;
+    border-radius: 3vmin;
+    border: none;
+    background-color: crimson;
+    box-shadow: 0 0 1rem rgba(red, green, blue, alpha);
+    font-size: 8vh;
+    color: lawngreen;
+}
+
+#Reset-button{
+   padding: 1rem;
+   font-size: 1.5rem;
+   border-radius: 3vmin;
 
 }
