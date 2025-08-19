@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .game {
@@ -55,4 +56,18 @@ body{
 }
 .hide{
     display: none;
+}
+
+@media (width < 450px) {
+    .container{
+        padding: 10px;
+    }
+    .box{
+        height: 13vh;
+        width:  13vh;
+    }
+    .game{
+        display:flex;
+        align-content: center;
+    }
 }
